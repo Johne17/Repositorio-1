@@ -1,13 +1,40 @@
-# React + Vite
+# Tom
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación sencilla creada con **Vite** y **React** como parte del proceso de aprendizaje. Aquí encontrarás un contador interactivo y un saludo personalizado, ideal para quienes están dando sus primeros pasos en el desarrollo frontend moderno.
 
-Currently, two official plugins are available:
+## 🚀 Instalación y creación del proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Crea el proyecto con Vite:**
+   ```bash
+   npm create vite@latest
+   ```
+   - Cuando te pregunte el nombre del proyecto, escribe: `Tom` (o el nombre que prefieras).
+   - Elige el framework: `React`
+   - Elige el lenguaje: `JavaScript`
 
-## Expanding the ESLint configuration
+2. **Entra a la carpeta del proyecto:**
+   ```bash
+   cd "Tom"
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Repositorio-1
+3. **Instala las dependencias:**
+   ```bash
+   npm install
+   ```
+
+4. **Inicia la aplicación en modo desarrollo:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Se abre en el siguiente enlace**  
+   http://localhost:5173
+
+## ✏️ Personalización
+
+Una vez abierto el proyecto en tu editor de código favorito, puedes modificar los archivos y realizar todos los cambios que desees para adaptar la aplicación a tus necesidades o para seguir practicando.
+
+## 📝 Autor
+
+- **John Esteban Parra Poveda**
+- Estudiante de Ingenieria en software
