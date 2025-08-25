@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Contador con Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           Incrementar
@@ -33,9 +33,8 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           Total {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <h2>John Esteban Parra Poveda <br />Ingenieria de Software
+        </h2>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
