@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Contador con Vite + React</h1>
+      <h1>Contador con Vite & React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           Incrementar
@@ -30,8 +30,11 @@ function App() {
           Reiniciar
         </button>
 
-        <button onClick={() => setCount((count) => count + 1)}>
-          Total {count}
+        <button
+          className="botonTotal"
+          onClick={() => setCount((count) => count + 1)}
+        >
+          {count}
         </button>
         <h2>John Esteban Parra Poveda <br />Ingenieria de Software
         </h2>
